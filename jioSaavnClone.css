@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-Container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding-right: 20px; */
+    background-color: rgb(207, 196, 196);
+    width: 100%;
+    height: auto;
+    color: black;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.left-nav img{
+    width: 169px;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.left-nav-child2{
+    justify-content: center;
+    align-items: center;
+}
+.left-nav-child2 div{
+    padding:10px;
+    font-size:17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* left-nav style END */
+
+.middle-nav{
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    /* background-color:blueviolet; */
+}
+.middle-nav input{
+    width: 35vw;
+    height: 8vh;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    padding: 20px;
+}
+.middle-nav i{
+    justify-content: center;
+    align-items: center;
+    margin:-40px;
+    cursor: pointer;
+}
+
+.right-nav{
+    width: 18vw;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color:darkmagenta; */
+}
+
+.right-nav div{
+    padding:10px;
+    font-size:17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.right-nav i{
+    /* background-color:red; */
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+/* Header Section Style END---------------------------------------- */
+
+.main{
+    display: flex;
+    width: 100%;
+    height:80vh;
+    background-color: rgb(235, 179, 110);
+}
+.sidebar{
+    width: 15vw;
+    height:80vh;
+    background-color: #f6f6f6;;
+    padding: 35PX;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+ 
+    scrollbar-width: thin; 
+    scrollbar-color: rgb(168, 168, 168) transparent;
+}
+.sidebar button{
+    padding: 10px;
+    width: 9vw;
+    border-radius: 25px;
+    border: 2px solid rgb(47, 214, 214);
+    background-color: transparent;
+    cursor: pointer;
+}
+.sidebar button:hover{
+    background-color:rgb(47, 214, 214);
+}
+
+.sidebar-child2{
+    display: flex;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+/* -----------New Playlist Button END---------------- */
+.sidebar-child2 div{
+    margin-top: 20px;
+    cursor: pointer;
+}
+.sidebar-child2 h3{
+    color: #828da8;;
+}
+.sidebar-Browse div{
+    margin: 20px;
+    font-weight: bold;
+    width: 8vw;
+}
+.sidebar-my-library div{
+    margin: 20px;
+    font-weight: bold;
+    width: 8vw;
+}
+.sidebar-my-playlists div{
+    margin: 20px;
+    font-weight: bold;
+    width: 8vw;
+}
+
+/* sidebar style END--------------------------------------- */
+
+.content{
+    height: 80vh;
+    width: calc(100vw - 15vw);
+    overflow-y: scroll;
+}
+
+.footer{
+    /* background-attachment: fixed; */
+    background-color: #828da8;
+    width: 100%; 
+    height:10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* ------------------------------------ */
+
