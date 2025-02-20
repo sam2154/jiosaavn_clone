@@ -7,14 +7,14 @@
     <title>JioSaavn Clone By Somnath Rajbanshi</title>
     <link rel="stylesheet" href="jioSaavnClone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    
+
 </head>
 
 <body>
     <header>
         <nav class="nav-Container">
             <div class="left-nav flex">
-                <div><img src="./JioSaavn-Logo-Kit/Full/JioSaavn Logo Black Transparent.png" alt="" srcset=""></div>
+                <div><img src="./JioSaavn-Logo-Kit/Full/JioSaavn Logo Black Transparent.png" alt="Logo" ></div>
                 <div class="left-nav-child2 flex">
                     <div>Music</div>
                     <div>Podcasts</div>
@@ -27,9 +27,19 @@
                 <div><i id="global-search" class="fa-solid fa-magnifying-glass"></i></div>
             </div>
             <div class="right-nav flex">
-                <div>Music Languages</div>
+                <div class="nav">
+                    <label class="lang-select" for="toggle-menu">Music Languages ▼</label>
+                    <input type="checkbox" id="toggle-menu">
+                    <ul class="submenu">
+                        <li>English</li>
+                        <li>Hindi</li>
+                        <li>Bengali</li>
+                        <li>French</li>
+                    </ul>
+                </div>
+
                 <div class="profile-container">
-                    <img src="https://via.placeholder.com/40" alt="User" class="profile-pic" id="profilePic">
+                    <img src="https://avatars.githubusercontent.com/u/90975592?v=4" alt="User" class="profile-pic" id="profilePic">
                     <div class="submenu" id="submenu">
                         <ul>
                             <li><i class="fas fa-user"></i> Profile</li>
@@ -403,8 +413,6 @@
                 </div>
         </section>
     </footer>
-
-
 
     <script src="jioSaavnClone.js"></script>
 </body>
