@@ -12,3 +12,13 @@ document.addEventListener("click", function (event) {
     }
 });
 /* ////----------------Prifile SubManu Menu added CSS  END*/
+
+// Language SubManu JS START
+document.addEventListener('click', function(event) {
+    const menu = document.getElementById('toggle-menu');
+    const nav = document.querySelector('.nav');
+    if (!nav.contains(event.target)) {
+        menu.checked = false;
+    }
+});
+// Language SubManu JS END
