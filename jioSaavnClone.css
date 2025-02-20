@@ -8,7 +8,7 @@
     flex-direction: row;
     justify-content: space-between;
     /* padding-right: 20px; */
-     background-color: #f6f6f6;
+    background-color: #f6f6f6;
     width: 100%;
     height: auto;
     color: black;
@@ -45,7 +45,7 @@
     width: 35vw;
     height: 6vh;
     border-radius: 30px;
-    border: none;
+    border: 2px solid rgb(243, 240, 240);
     outline: none;
     padding: 20px;
 }
@@ -95,7 +95,6 @@
     flex-direction: column;
     overflow-y: scroll;
     scrollbar-width: thin; 
-
 }
 .sidebar button{
     padding: 10px;
@@ -147,6 +146,7 @@
     height: 80vh;
     width: calc(100vw - 15vw);
     overflow-y: scroll;
+    padding: 50px;
 }
 
 .footer{
@@ -155,11 +155,10 @@
     width: 100%; 
     height:10vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-
 /* ------------------------------------ */
 /* Date:20-02-2025 */
 .playMeter{
